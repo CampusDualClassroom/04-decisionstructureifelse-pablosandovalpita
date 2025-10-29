@@ -25,9 +25,9 @@ public class Exercise {
     // Si no es múltiplo, tiene que devolver el siguiente mensaje: X no es multiplo de Y
     public static void checkMultiply(int n1, int n2) {
         if (n2 % n1 == 0) {
-            System.out.println(n1 + " es multiplo de " + n2);
+            System.out.println(n2 + " es multiplo de " + n1);
         } else {
-            System.out.println(n1 + " no es multiplo de " + n2);
+            System.out.println(n2 + " no es multiplo de " + n1);
         }
     }
 
